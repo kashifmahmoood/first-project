@@ -1,0 +1,171 @@
+
+h1{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-bottom: 20px;
+text-align: center;
+
+
+}
+
+.box{
+  background-color: grey;
+  border: 2px solid black;
+  float: left;
+  margin-left: 2%;
+  
+  
+ 
+}
+.test{
+  background-color: green;
+  border: 2px solid black;
+  float: right;
+  font-size: 25px;
+  height: 30px;
+  text-align: center;
+  width: 150px;
+
+
+  
+  
+ 
+   
+}
+.test1{
+padding: 60px 3px 10px;
+text-align: start;
+
+}
+.box1{
+  background-color: grey;
+  border: 2px solid black;
+  float: left;
+  margin-left: 2%;
+  
+ 
+ 
+}
+.test2{
+  background-color: brown;
+  border: 1.8px solid black;
+  float: right;
+  font-size: 25px;
+  height: 30px;
+  text-align: center;
+  width: 150px;
+  
+   
+}
+.test3{
+padding: 60px 5px 10px;
+text-align: start;
+
+
+}
+.box3{
+  background-color: grey;
+  border: 2px solid black;
+  float: left;
+  margin-left: 2%;
+ 
+  
+  
+  
+}
+.test4{
+  background-color: blueviolet;
+  border: 1.8px solid black;
+  float: right;
+  font-size: 25px;
+  height: 30px;
+  text-align: center ;
+  width: 150px;
+  
+  
+    
+}
+.test5{
+  padding: 60px 4px 10px;
+  text-align: start;
+
+}
+
+@media(max-width : 767px){
+           
+  .box{
+   
+ height: 170px;
+ margin-bottom: 3%;
+ margin-left: 4%;
+
+ width: 90%;
+
+  }
+   .box1{
+   
+    
+     height: 170px;
+     margin-bottom: 3%;
+     margin-left: 4%;
+     width: 90%;
+   }
+   .box3{
+    
+     height: 170px;
+     margin-left: 4%;
+     width: 90%;
+   }
+ }
+
+@media (min-width:768px) and (max-width:991px){
+  
+    .box{
+    height: 170px;
+    margin-top: 4%;
+    padding-right: 1%;
+    width: 45%;
+    
+  
+    }
+
+  .box1{
+  
+    
+    height: 170px;
+    margin-top: 4%;
+    padding-left: 2%;
+    width: 45%;
+   
+         
+  }
+  .box3 {
+    
+    height: 170px;
+    margin-top: 2%;
+    width: 96%;
+  
+    
+  }
+
+}
+@media(min-width:992px){
+
+  .box{
+    height: auto;
+    width: 30%;
+  
+  }
+  .box1{
+    height: auto;
+    width: 30%;
+   
+   
+  }
+  .box3{
+    height: auto;
+    width: 30%;
+    
+    
+  }
+  
+  }
